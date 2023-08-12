@@ -1,0 +1,122 @@
+
+img {width: 100%;}
+.container{
+   width: 1200px; margin: 0 auto;
+}
+
+.facebook{
+    background-color:#0253b9;
+    color:
+    white;
+   
+}
+.instagram{
+    background-color:#f53558;
+    color:
+    white;
+    
+}
+.twitter{
+    background-color:#2483fb;
+    color:
+    white;
+   
+}
+.linkedin{
+    background-color:#0253b9;
+    color:
+    white;
+   
+}
+.mail{}
+.t_phone{}
+/* header */  
+header{
+    position:
+    sticky;
+    top: -44px;
+}
+header .top_nav{
+    background-color: #1ac07b1a;
+    width:100%;
+    padding: 7px 0px;
+}
+header .top_nav .container{
+    width:80%;
+    margin:0 auto;
+}
+header .top_nav .container .head_blocks{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .top_nav .container .head_blocks .head_contact{}
+header .top_nav .container .head_blocks .head_contact a {
+    padding: 0px 6px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #131454;
+}
+header .top_nav .container .head_blocks .head_contact i{
+    margin-right: 6px;
+}
+ 
+
+header .top_nav .container .head_blocks .social_media{}
+header .top_nav .container .head_blocks .social_media ul{
+    display: flex;
+    margin: 0;
+}
+header .top_nav .container .head_blocks .social_media ul li{
+    padding: 0 3px;
+    list-style: none;
+}
+header .top_nav .container .head_blocks .social_media ul li a{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+header .bottom_nav{
+   
+    width: 100%;
+    background-color: #2e8561;
+}
+header .bottom_nav .container{}
+header .bottom_nav .container .nav_block{
+    display: flex;
+    justify-content: space-between;
+}
+header .bottom_nav .container .nav_block .logo{
+    width: 100px;
+    align-items: unset;
+    margin: auto 0;
+}
+header .bottom_nav .container .nav_block .logo img{}
+header .bottom_nav .container .nav_block .text_content{
+    display: flex;
+}
+header .bottom_nav .container .nav_block .text_content .nav_item{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+header .bottom_nav .container .nav_block .text_content .nav_item .nav_links{
+    list-style: none;
+    display: flex;
+}
+header .bottom_nav .container .nav_block .text_content .nav_item .nav_links a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+header .bottom_nav .container .nav_block .text_content .nav_item .nav_links a:hover{
+    color:#562d2d;
+    transform: scale(1.2);
+    transition: all 0.7s ease;
+}
+

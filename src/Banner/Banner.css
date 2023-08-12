@@ -1,0 +1,10 @@
+.ban{
+    width:100%;
+    overflow: hidden;
+}
+.banner .banner_img{
+    width:100vw;
+}
+.banner .banner_img img{
+    width:100%;
+}
